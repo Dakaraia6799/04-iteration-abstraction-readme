@@ -1,4 +1,4 @@
-# Enumeration and Iteration
+# Iteration and Abstraction
 
 ![Picasso on Abstraction](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/abstraction-bull.jpg)
 
@@ -13,9 +13,9 @@
 
 ## Iteration vs. Looping
 
-In previous readings we discussed the four loop types, `loop`, `times`, `while`, and `until`. Now we're going to discuss the difference between looping and iteration. **Looping** occurs when you tell your program to do something a certain number of times. **Iteration** occurs when you have a collection of data (for example, an array), and you operate on each member of that collection. 
+In previous readings we discussed the four loop types, `loop`, `times`, `while`, and `until`. Now we're going to discuss the difference between looping and iteration. **Looping** occurs when you tell your program to do something a certain number of times. **Iteration** occurs when you have a collection of data (for example, an array), and you operate on each member of that collection.  Sometimes this is called "enumeration".  Don't worry about the difference between the two.  For now, just know that you might see **enumeration** and it means pretty much the same thing.
 
-For example, if I tell my program to print out the phrase "I love programming!" five times, that's *looping*. If I tell my program to enumerate over the array `[1, 2, 3, 4, 5]` and add `10` to each number, that's *iteration*. 
+For example, if I tell my program to print out the phrase "I love programming!" five times, that's *looping*. If I tell my program to iterate over the array `[1, 2, 3, 4, 5]` and add `10` to each number, that's *iteration*. 
 
 
 ## `loop` - The Least Abstract
@@ -88,9 +88,3 @@ end
 ```
 
 Here we see the full power of the Ruby iterators. To quote Kent Beck, "you don't use 3-4 lines to express iteration, you use one word." If you mean each apple, just say *each apple*. All the details of the algorithm are removed and replaced with the intention of our code, not the implementation of the algorithm.
-
-Don't worry if you're not fully grasping `each`. We'll cover this more in depth in subsequent lessons. 
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/iterators-and-abstraction-ruby' title='Enumeration and Iteration'>Enumeration and Iteration</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/iterators-and-abstraction-ruby'>Iteration and Abstraction</a> on Learn.co and start learning to code for free.</p>
